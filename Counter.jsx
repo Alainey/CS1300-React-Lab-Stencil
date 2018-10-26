@@ -10,7 +10,7 @@ class Counter extends Component {
     }
 
     incrementCount = () => {
-        /* TODO: Use setState() to modify the count. Here’s an example:
+        /* TODO (Counter): Use setState() to modify the count. Here’s an example:
             this.setState({
                 keyToChange: valueToChangeTo
             });
@@ -22,7 +22,7 @@ class Counter extends Component {
             <div className="counter">
                 /*TODO (Counter): display the value of count*/
 
-                /*TODO (Counter: add a button that calls incrementCount() when clicked*/
+                /*TODO (Counter): add a button that calls incrementCount() when clicked*/
             </div>
         );
     }

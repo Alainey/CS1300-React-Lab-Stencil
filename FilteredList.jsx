@@ -32,7 +32,7 @@ class FilteredList extends Component {
     return (
         <div className = "filter-list">
          
-          /*TODO: Create a Dropdown Menu with three different menu options: Fruit, Vegetables, and All*/
+          /*TODO (FilteredList): Create a Dropdown Menu with three different menu options: Fruit, Vegetables, and All*/
           
           <input type = "text" placeholder = "Search" onChange = {this.onSearch} />
           <List items = {this.props.items.filter(this.filterItem)} />
